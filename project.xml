@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Shapes" package="com.mycompany.shapes" version="1.0.0" company="MyCompany" />
+	<app main="Main" path="Export" file="shapes" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+
+	<library path="Assets/shapes.swf" id="swf-library" preload="true" generate="true" />
+	
+	<assets path="Assets" rename="assets" exclude="*.swf" />
+	
+</project>
